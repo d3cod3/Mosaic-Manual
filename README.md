@@ -16,6 +16,7 @@ Install [Sphinx](http://www.sphinx-doc.org/en/stable/) 1.8.1. Newer versions do 
 pip install sphinx==1.8.1
 pip install sphinx-markdown-tables
 pip install sphinx_rtd_theme
+pip install sphinx-intl
 ```
 
 Install [recommonmark](https://github.com/rtfd/recommonmark) 0.4.0.
@@ -28,7 +29,21 @@ Build with
 
 ```bash
 make html
-```  
+```
+
+Generate .pot and .po files for translations with
+
+```bash
+make gettext
+sphinx-intl update -p _build/gettext -l en -l es
+```
+
+Generate translated documents with
+
+```bash
+make -e SPHINXOPTS="-Dlanguage='en'" html
+make -e SPHINXOPTS="-Dlanguage='es'" html
+```
 
 The output should be generated in `_build/html`.
 

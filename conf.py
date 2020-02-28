@@ -23,6 +23,9 @@ templates_path = ['_templates']
 
 master_doc = 'index'
 
+locale_dirs = ['locale/']
+gettext_compact = False
+
 language = 'en'
 
 # List of patterns, relative to source directory, that match files and

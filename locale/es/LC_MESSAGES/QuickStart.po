@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Mosaic
+# This file is distributed under the same license as the Mosaic package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mosaic \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-28 10:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../QuickStart.md:1
+msgid "Quick Start"
+msgstr ""
+
+#: ../../QuickStart.md:3
+msgid ""
+"Mosaic is a visual and live coding environment, based on openFrameworks "
+"0.10.0, is open-source and, although it is multiplatform (OSX, Linux and "
+"Windows) it is more logical that open source applications are used in "
+"open source operating systems, so there are specific installation scripts"
+" for different Linux distros."
+msgstr ""
+
+#: ../../QuickStart.md:5
+msgid "Specifications"
+msgstr ""
+
+#: ../../QuickStart.md:21
+msgid ""
+"Once Mosaic is installed and launched (see installation)  you will see "
+"the toolbar menu and the canvas, where the objects will be placed."
+msgstr ""
+
+#: ../../QuickStart.md:23 ../../QuickStart.md:75
+msgid "alt text"
+msgstr ""
+
+#: ../../QuickStart.md:25
+msgid ""
+"To add an object, right-click on the canvas and the object menu will "
+"appear, ordered by category. If you select an object, it will be placed "
+"on the canvas. From the top menu Objects you can select it as well."
+msgstr ""
+
+#: ../../QuickStart.md:27
+msgid ""
+"You can move the objects by dragging them with the mouse to wherever you "
+"want. With the mouse scroll you can zoom in or out of the canvas."
+msgstr ""
+
+#: ../../QuickStart.md:29
+msgid ""
+"Most objects have connectors, on the left side are inlets and on the "
+"right side are outlets. By dragging the mouse from the outlets we'll see "
+"how a cable is stretched, and next to it we'll see the type of data it "
+"transmits and the name of the outlet. When you bring the cable close to "
+"the inlet of another object, that inlet increases in size if it is the "
+"same type of data that the cable transmits, if it is another type of data"
+" it cannot be connected."
+msgstr ""
+
+#: ../../QuickStart.md:31
+msgid ""
+"There are six cables types  to communicate six data types  between "
+"objects. Each of the cables, as well as the inlets and outlets are "
+"identified by their color according to the type of data:"
+msgstr ""
+
