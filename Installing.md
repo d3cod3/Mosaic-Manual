@@ -18,7 +18,7 @@ Download OF 0.11.0 STABLE (official download from [OF site](https://openframewor
 
 After you have openFrameworks running, you need to clone the ofxAddons from git.
 
-##### OFXADDONS
+##### ofxAddons
 
 Clone all the required addons listed:
 
