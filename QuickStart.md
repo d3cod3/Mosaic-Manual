@@ -34,11 +34,11 @@ There are six cables types  to communicate six data types  between objects. Each
 
 | **Connection type** | **Variable** | **Color** |
 | ----------------- | ----------------- | --------- |
-| Numeric         | Float             | Grey  |
-| Text		        | String            | Violet |
-| Array             | Vector <float>    | Green |
-| Texture                             | ofTexture                          | Blue              |
-| Sound                              | ofSoundBuffer                 | Yellow    |
-| Live Coding                       | Mouse/Keyboard Interaction        | Red               |
+| Numeric         | Float             | **<span style="color:rgb(210,210,210)">Grey</span>**  |
+| Text		        | String            | **<span style="color:rgb(200,180,255)">Violet</span>** |
+| Array             | Vector <float>    | **<span style="color:rgb(120,255,120)">Green</span>** |
+| Texture                             | ofTexture                          | **<span style="color:rgb(120,255,255)">Blue</span>**              |
+| Sound                              | ofSoundBuffer                 | **<span style="color:rgb(255,255,120)">Yellow</span>**    |
+| Live Coding                       | Mouse/Keyboard Interaction        | **<span style="color:rgb(255,128,128)">Red</span>**               |
 
 [![alt text](images/imag_video_01.jpg)](https://vimeo.com/394048806)

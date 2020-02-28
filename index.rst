@@ -11,6 +11,7 @@ Edit this manual at https://github.com/d3cod3/Mosaic-Manual
 
    QuickStart.md
    Installing.md
+   Menu.md
    FAQ.md
 
 .. toctree::

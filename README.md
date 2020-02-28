@@ -14,6 +14,7 @@ Install [Sphinx](http://www.sphinx-doc.org/en/stable/) 1.8.1. Newer versions do 
 
 ```bash
 pip install sphinx==1.8.1
+pip install sphinx-markdown-tables
 pip install sphinx_rtd_theme
 ```
 

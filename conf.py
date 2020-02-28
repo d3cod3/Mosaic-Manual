@@ -7,6 +7,7 @@ source_encoding = 'utf-8'
 
 extensions = [
     'sphinx.ext.mathjax',
+    'sphinx_markdown_tables',
 ]
 
 from recommonmark.parser import CommonMarkParser
