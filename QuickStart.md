@@ -2,7 +2,7 @@
 
 [Mosaic](https://mosaic.d3cod3.org/) is a visual and live coding environment, based on [openFrameworks](https://openframeworks.cc/) 0.10.0, is open-source and, although it is multiplatform (OSX, Linux and Windows) it is more logical that open source applications are used in open source operating systems, so there are specific installation scripts for different Linux distros.
 
-#### Specifications
+Specifications:
 
 ```
 - cross-platform (until Apple and Microsoft decides to drop support for openGL, then it will be Linux only)
