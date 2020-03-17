@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mosaic \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 10:41+0100\n"
+"POT-Creation-Date: 2020-02-29 19:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,31 +73,34 @@ msgid ""
 msgstr ""
 
 #: ../../Installing.md:21
-msgid "OFXADDONS"
+msgid "ofxAddons"
 msgstr ""
 
 #: ../../Installing.md:23
 msgid "Clone all the required addons listed:"
 msgstr ""
 
-#: ../../Installing.md:63
+#: ../../Installing.md:62
 msgid ""
 "Next, you should clone from git the Mosaic repository and follow the "
 "setup guide for the qtcreator IDE."
 msgstr ""
 
-#: ../../Installing.md:65
+#: ../../Installing.md:64
 msgid "Install on Linux"
 msgstr ""
 
-#: ../../Installing.md:67
+#: ../../Installing.md:66
 msgid "Use the automatic install script for your distro:"
 msgstr ""
 
-#: ../../Installing.md:75
+#: ../../Installing.md:74
 msgid ""
 "Here you can download (and check) a script for automatically "
 "download/clone/compile and build everything for your linux distro, and "
 "magically have Mosaic appearing on your desktop  menu."
 msgstr ""
+
+#~ msgid "OFXADDONS"
+#~ msgstr ""
 

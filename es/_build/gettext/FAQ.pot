@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Mosaic
+# This file is distributed under the same license as the Mosaic package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mosaic \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-17 19:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../FAQ.md:1
+msgid "FAQ"
+msgstr ""
+
+#: ../../FAQ.md:3
+msgid "¿Cómo se guarda un patch de Mosaic?"
+msgstr ""
+
+#: ../../FAQ.md:5
+msgid "Los patch de Mosaic se guardan en archivos tipo .xml. Para guardarlo, selecciona Save patch As desde el menú File, se abrirá una ventana de diálogo del ordenador y ponle un nombre Los patch de Mosaic se guardan en archivos tipo .xml. Para guardarlo, selecciona Save patch As desde el menú File, se abrirá una ventana de diálogo del ordenador y ponle un nombre en código ASCII de 7 bits (que no lleve \"ñ\", ni acentos, ni espacios vacíos:poner \"video_project\" no \"video project\") y ten cuidado en no borrar .xml."
+msgstr ""
+
+#: ../../FAQ.md:7
+msgid "Al guardarlo se genera una carpeta con el mismo nombre que le hayas puesto al patch, dentro de ella verás el archivo .xml y otra carpeta llamada data en la que se irán incorporando automáticamente todos los archivos de scripting, video, audio o imagen que uses en el patch. Para evitar la duplicación de archivos, se recomienda poner en la capeta data del patch los archivos que vayamos a utilizar para que Mosaic no los duplique."
+msgstr ""
+
+#: ../../FAQ.md:9
+msgid "Cuando se abre Mosaic por primera vez, se genera en tu ordenador una carpeta llamada Mosaic:"
+msgstr ""
+
+#: ../../FAQ.md:15
+msgid "Se aconseja guardar todos los patch de Mosaic en una carpeta (con el nombre que quieras) dentro esa carpeta Mosaic sin tocar las carpetas data y examples que contiene."
+msgstr ""
+
+#: ../../FAQ.md:17
+msgid "Los patch se guardan solo una vez, y según vayamos trabajando el archivo  se irá guardando automáticamente por lo que al terminar el trabajo no  hay que volver a guardarlo. Si quieres dejar un patch tal como está, pero seguir el proceso hasta otro nivel, entonces sí tienes que guardarlo de nuevo con Save patch As, poniendo otro nombre y seguir trabajando en este último. Al finalizar no hay que guardar, los dos archivos estarán guardados."
+msgstr ""
+
+#: ../../FAQ.md:19
+msgid "¿Cómo se abre un patch de Mosaic?"
+msgstr ""
+
+#: ../../FAQ.md:21
+msgid "Puedes abrir un pacht previamente guardado de Mosaic desde el menú File/ Open patch, o puedes arrastrar el archivo .xml al canvas."
+msgstr ""
+
+#: ../../FAQ.md:23
+msgid "No puedes abrirlo clicando sobre el icono del archivo, porque .xml (Extensible Markup Language) es un estándar para el intercambio de información estructurada entre  plataformas, y si lo clicas directamente te lo abrirá el editor de código que tengas asignado por defecto en tu ordenador."
+msgstr ""
+
+#: ../../FAQ.md:25
+msgid "¿Cómo se pone un objeto?"
+msgstr ""
+
+#: ../../FAQ.md:27
+msgid "Puedes añadir un objeto seleccionándolo desde el menú objects, en el que los objetos están organizados por categorías."
+msgstr ""
+
+#: ../../FAQ.md:29
+msgid "Este menú también aparece cuando clicas el botón derecho del ratón en cualquier lugar vacío del canvas. En este menú flotante tienes la opción Search con un campo de texto, si sabes el nombre del objeto puedes empezar a escribirlo y al teclear el tabulador Mosaic completa su nombre y si es el buscado al teclear Enter el objeto se situará cerca de esa posición."
+msgstr ""
+
+#: ../../FAQ.md:31
+msgid "En los objetos que contienen archivos (Image loader, Video player, Soundfile player, Bash script, Lua script, Processing script o Shader script) puedes arrastrar directamente el archivo al canvas, el objeto aparecerá con el archivo ya cargado. En el menú de configuración de estos objetos verás la opción Open, si has incorporado el objeto vacío, desde Open puedes cargarle el archivo."
+msgstr ""
+
+#: ../../FAQ.md:33
+msgid "¿Cómo activar el sonido?"
+msgstr ""
+
+#: ../../FAQ.md:35
+msgid "Cuando se abre Mosaic, el sistema de sonido no está activado. Si no vas a usar audio en tu patch puede seguir así, no hay problema aunque en el logger ponga en rojo: [error] The selected audio devices couldn't be properly installed in your system!"
+msgstr ""
+
+#: ../../FAQ.md:37
+msgid "Para activar el sistema de sonido, desde el menú Sound, selecciona en Input device el dispositivo de entrada de sonido de tu ordenador que quieras utilizar, y en Output device, el de salida. Después clica DSP ON. Entonces el objeto Audio device aparece en el canvas con el mismo número de inlets y outlets que tengan los dispositivos seleccionados."
+msgstr ""
+
+#: ../../FAQ.md:39
+msgid "Audio device es un objeto de sistema de Mosaic, lo que significa que no se puede agregar/eliminar como los otros objetos, y establece una conexión directa con el dispositivo de audio del ordenador que se ha seleccionado."
+msgstr ""
+
+#: ../../FAQ.md:41
+msgid "¿Cómo se activa Warping en el objeto Output window?"
+msgstr ""
+
+#: ../../FAQ.md:43
+msgid "En el objeto Output window, el warping solo funciona con la ventana del proyector a pantalla completa y el botón de Warping activado. Si tecleas W aparece un recuadro cuyos vértices pueden moverse con el ratón, para ajustar los límites de la proyección. Las teclas para ampliar la retícula en el interior de la imagen son:"
+msgstr ""
+
+#: ../../FAQ.md:51
+msgid "La posición de todas las intersecciones de la retícula puede ajustarse con el ratón. Por defecto las deformaciones se adaptan a formas curvas, si tecleas M cambias a retícula lineal, si tecleas M de nuevo vuelve a curvas."
+msgstr ""
+
+#: ../../FAQ.md:53
+msgid "La opción Load warping permite cargar un warping previamente guardado y Save warping para guardarlo en un archivo tipo json."
+msgstr ""
+
+#: ../../FAQ.md:55
+msgid "¿Cómo hacer live-coding en Mosaic?"
+msgstr ""
+
+#: ../../FAQ.md:57
+msgid "En Mosaic se puede visualizar el código del objeto Lua script en la ventana proyector, para ello hay que conectar los dos outlets, el rojo y el azul del objeto Lua script al objeto output window. La lista de comandos para activar el live coding y otras funciones básicas es:"
+msgstr ""
+
+#: ../../FAQ.md:70
+msgid "Para escribir  código utiliza las teclas de flecha para mover el cursor al punto deseado."
+msgstr ""
+

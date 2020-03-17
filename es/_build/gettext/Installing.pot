@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Mosaic
+# This file is distributed under the same license as the Mosaic package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mosaic \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-17 19:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Installing.md:1
+msgid "Instalación y funcionamiento"
+msgstr ""
+
+#: ../../Installing.md:3
+msgid "Según el sistema operativo, desde la web de Mosaic  se puede descargar la aplicación, el script de instalación o los archivos a compilar."
+msgstr ""
+
+#: ../../Installing.md:5
+msgid "Instalar en Mac"
+msgstr ""
+
+#: ../../Installing.md:7
+msgid "Descargar y descomprimir la carpeta Mosaic_vn.n.n_osx_release.zip (vn.n.n corresponde al número de la release), y trasladar la app a la carpeta de aplicaciones. Al abrir  el programa por primera vez se genera una carpeta denominada Mosaic en  Documentos, dentro de ella hay dos carpetas, una denominada data, se recomienda NO TOCAR el contenido de esa carpeta y otra llamada examples que contiene los ejemplos que vienen con la aplicación."
+msgstr ""
+
+#: ../../Installing.md:9
+msgid "Instalar en Windows"
+msgstr ""
+
+#: ../../Installing.md:11
+msgid "Mosaic para Windows continuará sólo a nivel de código fuente. El código estará probado para compilar correctamente en Windows, pero no habrá instaladores disponibles para descargar."
+msgstr ""
+
+#: ../../Installing.md:13
+msgid "Si quieres usar Mosaic en windows, tienes que compilarlo con qtcreator 4.6.1."
+msgstr ""
+
+#: ../../Installing.md:15
+msgid "openFrameworks"
+msgstr ""
+
+#: ../../Installing.md:16
+msgid "Descarga OF 0.11.0 STABLE (descarga oficial desde OF site)"
+msgstr ""
+
+#: ../../Installing.md:18
+msgid "Después de tener openFrameworks funcionando, necesitas clonar desde git los ofxAddons."
+msgstr ""
+
+#: ../../Installing.md:20
+msgid "OFXADDONS"
+msgstr ""
+
+#: ../../Installing.md:22
+msgid "Clona este listado de addons necesarios:"
+msgstr ""
+
+#: ../../Installing.md:62
+msgid "Después, debes clonar desde git el repositorio de Mosaic y seguir la guía de configuración para el IDE de qtcreator."
+msgstr ""
+
+#: ../../Installing.md:64
+msgid "Instalar en Linux"
+msgstr ""
+
+#: ../../Installing.md:66
+msgid "En Linux, se puede descargar un script bash para la terminal. Según la distro de Linux las opciones son:"
+msgstr ""
+
+#: ../../Installing.md:74
+msgid "Estos scripts automáticamente descargan, clonan, compilan e instalan todo, tras lo cual, Mosaic aparece en el menú de escritorio."
+msgstr ""
+

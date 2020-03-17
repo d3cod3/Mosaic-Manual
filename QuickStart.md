@@ -18,7 +18,7 @@ Specifications:
 
 ------
 
-Once Mosaic is installed and launched (see [installation](install.md))  you will see the toolbar menu and the canvas, where the objects will be placed.
+Once Mosaic is installed and launched (see [installation](Installing.html))  you will see the toolbar menu and the canvas, where the objects will be placed.
 
 ![alt text](images/interface_mosaic_example_w.jpg "Interface Mosaic")
 

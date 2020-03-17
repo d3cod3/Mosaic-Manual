@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mosaic \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 10:41+0100\n"
+"POT-Creation-Date: 2020-02-29 19:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,23 +47,31 @@ msgid ""
 "tags properly."
 msgstr ""
 
-#: ../../README.md:21
+#: ../../README.md:22
 msgid "Install recommonmark 0.4.0."
 msgstr ""
 
-#: ../../README.md:27
+#: ../../README.md:28
 msgid "Build with"
 msgstr ""
 
-#: ../../README.md:33
+#: ../../README.md:34
+msgid "Generate .pot and .po files for translations with"
+msgstr ""
+
+#: ../../README.md:41
+msgid "Generate translated documents with"
+msgstr ""
+
+#: ../../README.md:48
 msgid "The output should be generated in _build/html."
 msgstr ""
 
-#: ../../README.md:35
+#: ../../README.md:50
 msgid "License"
 msgstr ""
 
-#: ../../README.md:37
+#: ../../README.md:52
 msgid "All documentation text in this repository is licensed under CC BY-SA 4.0."
 msgstr ""
 

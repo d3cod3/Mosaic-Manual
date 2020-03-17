@@ -1,0 +1,438 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Mosaic Objects List &mdash; documentación de Mosaic - </title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.png"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/overrides.css" type="text/css" />
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Objects development" href="ObjectDevelopmentTutorial.html" />
+    <link rel="prev" title="FAQ" href="FAQ.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Mosaic</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="QuickStart.html">Quick Start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="QuickStart.html#especificaciones">Especificaciones</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Installing.html">Instalación y funcionamiento</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Installing.html#instalar-en-mac">Instalar en Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installing.html#instalar-en-windows">Instalar en Windows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Installing.html#openframeworks">openFrameworks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Installing.html#ofxaddons">OFXADDONS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Installing.html#instalar-en-linux">Instalar en Linux</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Menu.html">Menú</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-guarda-un-patch-de-mosaic">¿Cómo se guarda un patch de Mosaic?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-abre-un-patch-de-mosaic">¿Cómo se abre un patch de Mosaic?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-pone-un-objeto">¿Cómo se pone un objeto?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-activar-el-sonido">¿Cómo activar el sonido?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-activa-warping-en-el-objeto-output-window">¿Cómo se activa Warping en el objeto Output window?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-hacer-live-coding-en-mosaic">¿Cómo hacer live-coding en Mosaic?</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Objects</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Mosaic Objects List</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#audio-analysis">Audio analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#communications">Communications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#computer-vision">Computer vision</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#graphics">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gui">GUI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#logic">Logic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#math">Math</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scripting">Scripting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sound">Sound</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#video">Video</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#windowing">Windowing</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Object Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ObjectDevelopmentTutorial.html">Objects development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ObjectLicensing.html">Objects Licensing</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Issues.html">Incompatibilities, Bugs and Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html">About Mosaic</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mosaic</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Mosaic Objects List</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/d3cod3/Mosaic-Manual/blob/master/Objects.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="mosaic-objects-list">
+<span id="mosaic-objects-list"></span><h1>Mosaic Objects List<a class="headerlink" href="#mosaic-objects-list" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="audio-analysis">
+<span id="audio-analysis"></span><h2>Audio analysis<a class="headerlink" href="#audio-analysis" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=audio-analyzer">audio analyzer</a>. Este objeto es una estación de análisis de audio que transmite un vector con todos los datos analizados. Cada uno de los parámetros de audio analizado está disponible en los diferentes objetos extractores.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=beat-extractor">beat extractor</a>. Este objeto extrae la detección del beat en el vector de análisis de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bpm-extractor">bpm extractor</a>.Este objeto extrae el promedio de bmp en un periodo de tiempo, y ese periodo de tiempo en millisegundos.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=centroid-extractor">centroid extractor</a>. Este objeto extrae el centro de gravedad en los datos del espectro sonoro, su energía media.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=dissonance-extractor">dissonance extractor</a>. Este objeto extrae la disonancia sensorial  (no musical o estética) midiendo la rugosidad perceptual del sonido.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=fft-extractor">fft extractor</a>. Este objeto extrae la FFT (Fast Fourier Transform) desde el vector de análisis de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=hfc-extractor">hfc extractor</a>. Este objeto extrae el coeficiente HFC (High Frequency Content) de las altas frequencias del espectro sonoro.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=hpcp-extractor">hpcp extractor</a>. Este objeto extrae el HPCP (Harmonic Pitch Class Profile) como un vector dinámico de 12 valores float.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=inharmonicity-extractor">inharmonicity extractor</a>. Este objeto extrae la np-armonicidad de una señal sonora. El rango de disonancia va de 0 (señal muy armónica) a 1 (señal disonante).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=mel-bands-extractor">mel bands extractor</a>. Este objeto extrae el valor dinámico de 24 bandas de mel  desde el vector de análisis de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=mfcc-extractor">mfcc extractor</a>. Este objeto extrae un vector dinámico de 13 datos del  MFCC (Mel Frequency Cepstral Coeﬃcients) desde el vector de análisis de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=onset-extractor">onset extractor</a>. Este objeto extrae la detección de un onset en la señal de audio como valor float (0 o 1).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=pitch-extractor">pitch extractor</a>. Este objeto extrae el dato del pitch en la señal de audio como valor float (entre 0.0 y 4186.0).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=power-extractor">power extractor</a>. Este objeto extrae el promedio de energía del vector de análisis de audio, como un valor float (entre 0.0 y 1.0).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=rms-extractor">rms extractor</a>. Este objeto extrae el rms (Root Mean Square), la media cuadrática de energía del vector de análisis de audio, como un valor float  (entre 0.0 y 1.0).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=rolloff-extractor">rolloff extractor</a>. Este objeto extrae el valor de la frecuencia roll-off del vector de análisis de audio, como un valor float  (entre 0.0 y 1.0).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=tristimulus-extractor">tristimulus extractor</a>. Este objeto extrae un vector de tres elementos que miden la mezcla de armónicos en el vector de análisis de audio.</p>
+</div>
+<div class="section" id="communications">
+<span id="communications"></span><h2>Communications<a class="headerlink" href="#communications" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=arduino-serial">arduino serial</a>.  Este objeto se comunica con Arduino tanto para enviar como para recibir datos. El template <a class="reference external" href="https://mosaic.d3cod3.org/mosaicdoc/wp-content/uploads/2019/08/MosaicConnector.zip">MosaicConnector.ino</a> tiene que utilizarse como archivo de Arduino.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=key-pressed">key pressed</a>. Este objeto envía un bang cuando se presiona la tecla seleccionada. Para conocer el código ascii de la tecla, púlsala y el número aparece junto a «Last Key:»</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=key-released">key released</a>. Este objeto envía un bang cuando se suelta la tecla seleccionada. Para conocer el código ascii de la tecla, presiónala y su número aparecerá junto a «Last Key:»</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=midi-key">midi key</a>. Este objeto se usa vinculado al objeto midi receiver para mapear una tecla en un dispositivo midi.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=midi-knob">midi knob</a>. Este objeto se usa vinculado al objeto midi receiver para mapear un knob en un dispositivo midi.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=midi-pad">midi pad</a>. Este objeto se usa vinculado al objeto midi receiver para mapear un pad on en un dispositivo midi.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=midi-receiver">midi receiver</a>. Con este objeto puedes recibir datos desde una interfaz midi.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=osc-receiver">osc receiver</a>. Con este objeto puedes recibir datos por osc del tipo: numérico (float), texto (string), vector, o imagen (max 640x 480 para escala de grises, o 320x240 con RGB).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=osc-sender">osc sender</a>. Con este objeto puedes enviar datos por osc del tipo: numérico (float), texto (string), vector, o imagen (max 640x 480 para escala de grises, o 320x240 con RGB).</p>
+</div>
+<div class="section" id="computer-vision">
+<span id="computer-vision"></span><h2>Computer vision<a class="headerlink" href="#computer-vision" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=background-subtraction">background subtraction</a>. Este objeto aplica el algoritmo de Background subtraction.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=chroma-key">chroma key</a>. Este objeto aplica el efecto chromakey entre dos texturas.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=color-tracking">color tracking</a>.Este objeto aplica un tracking (rastreo) a un color determinado.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=contour-tracking">contour tracking</a>. Este objeto procesa las áreas detectadas por el objeto background subtraction, y obtiene los blobs, el contorno y la envoltura convexa (convex hulls).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=haar-tracking">haar tracking</a>.Este objeto detecta formas con características o estructuras específicas dentro de imágenes o frames de video.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=motion-detection">motion detection</a>. Este objeto calcula la cantidad de movimiento frente a la cámara.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=optical-flow">optical flow</a>. Este objeto muestra el impulso de movimiento reflejado en los frames de un video en directo o un archivo de video.</p>
+</div>
+<div class="section" id="data">
+<span id="data"></span><h2>Data<a class="headerlink" href="#data" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bang-multiplexer">bang multiplexer</a>. Este objeto puede recibir hasta 6 bangs y procesarlos como un medio de transmisión compartido (enchufe múltiple).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bang-to-float">bang to float</a>. Este objeto sólo envía el valor numérico después de recibir un bang.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=data-to-file">data to file</a>. Este objeto guarda en un archivo txt los datos de un vector.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=data-to-texture">data to texture</a>. Este objeto realiza síntesis de video usando el mismo motor de síntesis de audio de Mosaic, con un control separado sobre los canales RGB.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=file-to-data">file to data</a>. Este objeto carga un archivo txt, previamente guardado por el objeto data to file, con los datos de un vector.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=floats-to-vector">floats to vector</a>. Este objeto concatena hasta 6 datos float en un vector.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=texture-to-data">texture to data</a>. Este objeto procesa los datos de una textura y los transmite como un vector con el que puede generar una forma de onda de sonido.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=vector-at">vector at</a>. Este objeto extrae el valor en una posición particular de un vector.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=vector-concat">vector concat</a>. Este objeto recibe hasta 6 vectores, y los concatena como un solo vector.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=vector-gate">vector gate</a>. Este objeto recibe hasta 5 vectores, y transmite sólo el indicado en su inlet: open.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=vector-multiply">vector multiply</a>. Este objeto escala todos los valores de un vector multiplicándolos por un valor.</p>
+</div>
+<div class="section" id="graphics">
+<span id="graphics"></span><h2>Graphics<a class="headerlink" href="#graphics" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=image-exporter">image exporter</a>. Este objeto exporta imágenes de todos los cables de textura (azules).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=image-loader">image loader</a>. Objeto para cargar archivos de imagen. Los formatos compatibles son jpg, png, gif y tif.</p>
+</div>
+<div class="section" id="gui">
+<span id="gui"></span><h2>GUI<a class="headerlink" href="#gui" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=2d-pad">2d pad</a>. Este objeto permite ajustar simultáneamente dos valores float (con un rango de 0,0 a 1,0) moviendo el punto del pad.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bang">bang</a>. Este objeto dispara un bang. Puedes controlarlo manualmente con el ratón o automatizarlo por su inlet.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=comment">comment</a>. Objeto para comentarios. Pasa el ratón por encima para escribir el contenido y se autoformatea.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=message">message</a>. Objeto para enviar mensajes de texto.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=player-controls">player controls</a>. Este objeto permite controlar el estado de otro u otros objetos, como el video player, soundfile player, o timeline.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=signal-viewer">signal viewer</a>. Un visualizador de señal de audio básica, también la transmite a través de sus outlets.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=slider">slider</a>. Este objeto permite ajustar dinámicamente un valor numérico float (con un rango de 0,0 a 1,0) para enviarlo a otro objeto.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=sonogram">sonogram</a>. Este objeto es una representación visual de las frecuencias del espectro de una señal sonora (FFT), mostrando cómo cambia con el tiempo.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=timeline">timeline</a>. Módulo con interfaz gráfica, que permite visualizar el tiempo y poner keyframes en pistas de curvas, bang, switch, color y lfo. El objeto añade outlets automáticamnete cuando se crea un nuevo track.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=trigger">trigger</a>. Este objeto permite mantener una acción activa, o inactiva, continuamente a lo largo del tiempo.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-viewer">video viewer</a>. Un visor de video básico, el objeto lo visualiza, y lo transmite por su outlet.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=vu-meter">vu meter</a>. Este objeto es un visualizador que muestra una representación del nivel de la señal de audio.</p>
+</div>
+<div class="section" id="logic">
+<span id="logic"></span><h2>Logic<a class="headerlink" href="#logic" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=and">and &amp;&amp;</a>. Objeto para el operador lógico «and» (&amp;&amp;), se utiliza en combinación con los objetos larger than (&gt;) and smaller than (&lt;).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bigger-than">bigger than &gt;</a>. Objeto para el operador lógico «Mayor que» (&gt;),útil en estructuras condicionales.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=counter">counter</a>. Contador básico para estructuras iterativas.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=delay-bang">delay bang</a>. Este es un objeto que envía un bang poco después de recibir otro bang.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=equality">equality ==</a>. Objeto para el operador lógico ==, útil para estructuras condicionales.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=gate">gate</a>. Este objeto recibe hasta 5 valores numéricos y transmite sólo el indicado en su inlet: open.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=inequality">inequality !=</a>.  Objeto para el operador lógico !=, útil para estructuras condicionales.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=inverter">inverter</a>. Objeto para invertir el valor transmitido por un objeto trigger o un bang.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=loadbang">loadbang</a>. Igual que el objeto bang, pero actúa de forma automática al cargar el patch, un solo bang se dispara después de un tiempo de retardo configurable.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=or">or ||</a>. Objeto para el operador lógico «o» (||) que se utiliza en combinación con los objetos bigger than (&gt;) o smaller than (&lt;).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=select">select</a>. Este objeto permite activar secuencialmente hasta 16 bangs.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=smaller-than">smaller than &lt;</a>. Objeto para el operador lógico «Menor que» (&gt;), útil para estructuras condicionales.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=spigot">spigot</a>. Este objeto actúa como un interruptor, para transmitir, o no, la señal de diferentes tipos.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=timed-semaphore">timed semaphore</a>. Este objeto interrumpe, durante cierto tiempo, el flujo continuo de datos para generar una acción discreta.</p>
+</div>
+<div class="section" id="math">
+<span id="math"></span><h2>Math<a class="headerlink" href="#math" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=add">add</a>. Objeto para la operación aritmética básica de sumar (adición).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=clamp">clamp</a>. Con este objeto se puede establecer un rango de valores (máximo y mínimo), y el objeto fuerza los valores de entrada a ese rango.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=constant">constant</a>. Objeto para introducir o recibir un valor numérico.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=divide">divide</a>. Objeto para la operación aritmética básica de dividir.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=map">map</a>. Este objeto re-mapea un número de un rango a otro.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=metronome">metronome</a>. Este objeto envía un bang con la periodicidad de tiempo que se especifica en milisegundos.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=modulus">modulus</a>. Este objeto calcula el resto de un número dividido por otro.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=multiply">multiply</a>. Objeto para la operación aritmética básica de multiplicar.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=simple-noise">simple noise</a>. Este objeto es un generador de estándar ruido Perlin unidimensional.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=simple-random">simple random</a>. Este objeto es un generador de números aleatorios estándar (pseudoaleatorio).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=smooth">smooth</a>. Este objeto aplica un filtro de suavizado por interpolación al flujo de datos recibidos.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=subtract">subtract</a>. Objeto para la operación aritmética básica de restar.</p>
+</div>
+<div class="section" id="scripting">
+<span id="scripting"></span><h2>Scripting<a class="headerlink" href="#scripting" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bash-script">bash script</a>. Objeto para cargar un archivo de programación en lenguaje bash (Bourne-Again SHell).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=lua-script">lua script</a>. Este objeto es un contenedor live-coding de archivos de programación en lenguaje Lua con un binding a la libreria de openFrameworks (OF) e imita la estructura de programación de OF. Puedes escribir el código con el code editor de Mosaic, o con el editor de códigos por defecto de tu ordenador.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=processing-script">processing script</a>. Este objeto es un contenedor de archivos para programación de Processing incorporada a un template de Mosaic. Puedes escribir el código con el code editor de Mosaic, o con el editor de códigos por defecto de tu ordenador.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=python-script">python script</a>.Este objeto es un contenedor de archivos para programación en python incorporada a un template de Mosaic. Puedes escribir el código con el code editor de Mosaic, o con el editor de códigos por defecto de tu ordenador.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=shader-object">shader object</a>. Este objeto es un contenedor de archivos GLSL, capaz de cargar los shaders y editarlos en tiempo real. Puedes escribir el código con el code editor de Mosaic, o con el editor de códigos por defecto de tu ordenador.</p>
+</div>
+<div class="section" id="sound">
+<span id="sound"></span><h2>Sound<a class="headerlink" href="#sound" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=adsr-envelope">ADSR envelope</a>. Con este objeto se puede regular el Attack, Decay, Sustain and Release de un sonido.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=ahr-envelop">AHR envelope</a>. Con este objeto se puede regular la envolvente estándar del AHR con Attack Hold and Release.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=amp">amp</a>. Este objeto regula la potencia de la señal de una onda sonora de 0 (sin sonido) a 12.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=audio-exporter">audio exporter</a>. Este objeto permite grabar el sonido generado por un patch.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=audio-gate">audio gate</a>. Este objeto puede recibir hasta 5 señales de sonido, y transmite sólo la indicada en su inlet: open.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bit-cruncher">bit cruncher</a>. Este objeto genera un efecto de audio lo-fi (baja fidelidad), que produce una distorsión al reducir la resolución en la señal de datos de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=bit-noise">bit noise</a>. Este objecto es un generador de bit noise digital.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=chorus">chorus</a>. Este objeto es un efecto de coro en la señal de datos de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=comb-filter">comb filter</a>. Este objeto es un filtro comb (peine) para la señal de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=compressor">compressor</a>. Este objeto es un filtro compresor para la señal de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=crossfader">crossfader</a>. Este objeto le permite producir una transición suave entre dos señales de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=data-oscillator">data oscillator</a>. Este objeto procesa un vector de datos float y lo transmite como señal de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=decimator">decimator</a>. Este objeto reduce el sample rate de una señal de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=delay">delay</a>. Este objeto es un efecto de sonido que produce la multiplicación y retardo modulado de una señal de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=ducker">ducker</a>. Este objeto es un efecto ducker en la envolvente de un sonido.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=hi-pass">hi pass</a>. Este objeto es un filtro de paso-alto para permitir que las altas frecuencias pasen mientras se filtra o corta las bajas frecuencias.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=low-pass">low pass</a>. Este objeto es un filtro de paso-bajo que filtra o corta las frecuencias que están por encima de la frecuencia de corte.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=lfo">lfo</a>. Este objeto es un oscilador de baja frecuencia.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=mixer">mixer</a>. Este objeto combina hasta 6 señales de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=note-to-frequency">note to frequency</a>. Este objeto extrae la frecuencia fundamental de una nota midi.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=491">pd patch</a>. Este objeto es un contenedor de archivos de Pure Data con entradas y salidas. El archivo de datos puro está programado en una plantilla que ya tiene comunicación entre ambos programas.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=panner">panner</a>. Este objeto es un control de distribución de paneo para una señal de sonido.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=pulse">pulse</a>. Este objeto es una forma de onda de pulso en la que el pitch y el ancho de pulso pueden ser ajustados dinámicamente.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=quad-panner">quad panner</a>. Este objeto es una interfaz de 2d pad para distribuir dinámicamente el paneo cuadrafónico de una señal de audio.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=resonant-2pole-filter">resonant 2pole filter</a>. Este objeto es un filtro de 12 db que regula el pitch,  cut-off y resonancia para las opciones de paso-bajo, paso de banda, paso-alto y notch (rechazo).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=reverb">reverb</a>. Este objeto es un efecto de reverberación, en el que se puede regular dinámicamente el tiempo, densidad, atenuación y velocidad</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=saw">saw</a>. Este objeto es una forma de onda de sierra en la que se puede regular dinámicamente el pitch.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=signal-trigger">signal trigger</a>. Este objeto lanza un bang cuando el nivel de la señal sonora excede el umbral marcado.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=sine">sine</a>. Este objeto es una forma de onda sinusoidal en la que se puede regular dinámicamente el pitch.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=soundfile-player">soundfile player</a>. Este es un objeto de archivo de audio, puede cargar archivos .wav, .mp3, .ogg y .flac.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=triangle">triangle</a>. Este objeto es una forma de onda triangular en la que se puede regular dinámicamente el pitch.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=white-noise">white noise</a>. Este objeto es un generador de ruido blanco.</p>
+</div>
+<div class="section" id="system">
+<span id="system"></span><h2>System<a class="headerlink" href="#system" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=audio-device">audio device</a>. Es un objeto del sistema Mosaic, lo que significa que no se puede añadir/eliminar, sino que aparece cuando se configura el sistema de sonido desde el menú Sound. El objeto audio device es una conexión virtual directa al hardware de audio.</p>
+</div>
+<div class="section" id="video">
+<span id="video"></span><h2>Video<a class="headerlink" href="#video" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=kinect-grabber">kinect grabber</a>. Este objeto recibe directamente la señal de un sensor Kinect.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-crop">video crop</a>. Este objeto permite recortar un fragmento rectangular de una textura (imagen, vídeo, gráfico…).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-feedback">video feedback</a>. Con este objeto puedes hacer una retroalimentación de la textura. La acción se visualiza escalando y/o moviendo la textura, mostrando el rastro de sus bordes en el camino.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-exporter">video exporter</a>. Este objeto exporta un archivo de video desde cualquier cable de textura (azul). Puedes seleccionar el codec de video: mpg4, mjpeg, jpg2000, libx264, o hevc.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-gate">video gate</a>. Este objeto recibe hasta 5 texturas y transmite sólo la indicada en su entrada: open.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-grabber">video grabber</a>. Este objeto recibe directamente la señal de una webCam.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-player">video player</a>. Objeto para reproducir archivos de vídeo. En mac OSX puedes cargar archivos .mov y .mp4; en linux, archivos .mp4, .mpeg y .mpg.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-receiver">video receiver</a>. Este objeto recibe la transmisión de video desde el objeto  video sender a través del protocolo de comunicación <a class="reference external" href="https://en.wikipedia.org/wiki/Network_Device_Interface">NDI</a> (Network Device Interface).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-sender">video sender</a>. Este objeto envía una transmisión de video al objeto video receiver a través del protocolo de comunicación <a class="reference external" href="https://en.wikipedia.org/wiki/Network_Device_Interface">NDI</a> (Network Device Interface).</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-streaming">video streaming</a>.Objeto para streaming video vinculado con el player de video VLC</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-timedelay">video timedelay</a>. Con este objeto puedes retrasar la reproducción de un archivo de video o de un video en directo.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=video-transform">video transform</a>. Este objeto permite escalar y rotar una textura (imagen, video, gráfico…)</p>
+</div>
+<div class="section" id="windowing">
+<span id="windowing"></span><h2>Windowing<a class="headerlink" href="#windowing" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=live-patching">live patching</a>. Muestra la textura en tiempo real en el fondo del patch, con alfa para que puedas trabajar con los objetos.</p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=output-window">output window</a>. Este objeto crea una ventana de proyección. (⌘ o ctrl) + F = activar/desactivar la ventana a pantalla completa. Con la opción de warping y a pantalla completa se puede ajustar la superficie de proyección. Para todos los comandos de ajuste ver <a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=output-window">output window reference</a></p>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/reference.php?r=projection-mapping">projection mapping</a>. Módulo de video mapping. Proporciona una interfaz con recursos más flexibles que la retícula de la warping.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="ObjectDevelopmentTutorial.html" class="btn btn-neutral float-right" title="Objects development" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="FAQ.html" class="btn btn-neutral float-left" title="FAQ" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

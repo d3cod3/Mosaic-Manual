@@ -3,6 +3,8 @@ Mosaic Manual
 
 `Mosaic <https://mosaic.d3cod3.org/>`_ is an open-source Visual Patching Creative-coding Platform.
 
+Available in `English <https://mosaic.d3cod3.org/manual/en/>`_ and `Spanish <https://mosaic.d3cod3.org/manual/es/>`_
+
 Edit this manual at https://github.com/d3cod3/Mosaic-Manual
 
 .. toctree::

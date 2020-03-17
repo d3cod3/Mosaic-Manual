@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mosaic \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 10:41+0100\n"
+"POT-Creation-Date: 2020-02-29 19:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,22 +28,28 @@ msgid ""
 msgstr ""
 
 #: ../../index.rst:6
-msgid "Edit this manual at https://github.com/d3cod3/Mosaic-Manual"
+msgid ""
+"Available in `English <https://mosaic.d3cod3.org/manual/en/>`_ and "
+"`Spanish <https://mosaic.d3cod3.org/manual/es/>`_"
 msgstr ""
 
 #: ../../index.rst:8
+msgid "Edit this manual at https://github.com/d3cod3/Mosaic-Manual"
+msgstr ""
+
+#: ../../index.rst:10
 msgid "Mosaic"
 msgstr ""
 
-#: ../../index.rst:17
+#: ../../index.rst:19
 msgid "Objects"
 msgstr ""
 
-#: ../../index.rst:23
+#: ../../index.rst:25
 msgid "Object Development"
 msgstr ""
 
-#: ../../index.rst:30
+#: ../../index.rst:32
 msgid "Appendix"
 msgstr ""
 

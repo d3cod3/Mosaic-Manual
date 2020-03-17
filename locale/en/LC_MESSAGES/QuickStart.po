@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mosaic \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 10:41+0100\n"
+"POT-Creation-Date: 2020-02-29 19:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 
 #: ../../QuickStart.md:5
-msgid "Specifications"
+msgid "Specifications:"
 msgstr ""
 
 #: ../../QuickStart.md:21
@@ -74,4 +74,7 @@ msgid ""
 "objects. Each of the cables, as well as the inlets and outlets are "
 "identified by their color according to the type of data:"
 msgstr ""
+
+#~ msgid "Specifications"
+#~ msgstr ""
 

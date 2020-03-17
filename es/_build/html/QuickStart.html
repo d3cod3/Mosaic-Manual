@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quick Start &mdash; documentación de Mosaic - </title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.png"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/overrides.css" type="text/css" />
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Instalación y funcionamiento" href="Installing.html" />
+    <link rel="prev" title="Mosaic Manual" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Mosaic</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#especificaciones">Especificaciones</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Installing.html">Instalación y funcionamiento</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Installing.html#instalar-en-mac">Instalar en Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installing.html#instalar-en-windows">Instalar en Windows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Installing.html#openframeworks">openFrameworks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Installing.html#ofxaddons">OFXADDONS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Installing.html#instalar-en-linux">Instalar en Linux</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Menu.html">Menú</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-guarda-un-patch-de-mosaic">¿Cómo se guarda un patch de Mosaic?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-abre-un-patch-de-mosaic">¿Cómo se abre un patch de Mosaic?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-pone-un-objeto">¿Cómo se pone un objeto?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-activar-el-sonido">¿Cómo activar el sonido?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-activa-warping-en-el-objeto-output-window">¿Cómo se activa Warping en el objeto Output window?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-hacer-live-coding-en-mosaic">¿Cómo hacer live-coding en Mosaic?</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Objects</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Objects.html">Mosaic Objects List</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#audio-analysis">Audio analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#communications">Communications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#computer-vision">Computer vision</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#data">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#graphics">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#gui">GUI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#logic">Logic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#math">Math</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#scripting">Scripting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#sound">Sound</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#system">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#video">Video</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#windowing">Windowing</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Object Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ObjectDevelopmentTutorial.html">Objects development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ObjectLicensing.html">Objects Licensing</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Issues.html">Incompatibilities, Bugs and Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html">About Mosaic</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mosaic</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Quick Start</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/d3cod3/Mosaic-Manual/blob/master/QuickStart.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="quick-start">
+<span id="quick-start"></span><h1>Quick Start<a class="headerlink" href="#quick-start" title="Enlazar permanentemente con este título">¶</a></h1>
+<p><a class="reference external" href="https://mosaic.d3cod3.org/">Mosaic</a> es un entorno de programación visual y live coding, basado en <a class="reference external" href="https://openframeworks.cc/">openFrameworks</a> 0.10.0, es open-source y, aunque es multiplataforma (OSX, Linux y  Windows) parece más lógico que las aplicaciones open source se utilicen  en sistemas operativos también open source.</p>
+<div class="section" id="especificaciones">
+<span id="especificaciones"></span><h2>Especificaciones<a class="headerlink" href="#especificaciones" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">multiplataforma</span> <span class="p">(</span><span class="n">hasta</span> <span class="n">que</span> <span class="n">Apple</span> <span class="n">y</span> <span class="n">Microsoft</span> <span class="n">decidan</span> <span class="n">eliminar</span> <span class="n">el</span> <span class="n">soporte</span> <span class="n">para</span> <span class="n">openGL</span><span class="p">,</span> <span class="n">entonces</span> <span class="n">será</span> <span class="n">sólo</span> <span class="n">Linux</span><span class="p">)</span>
+<span class="o">-</span> <span class="n">multi</span><span class="o">-</span><span class="n">threaded</span>
+<span class="o">-</span> <span class="n">non</span><span class="o">-</span><span class="n">blocking</span> <span class="n">system</span> <span class="n">dialogs</span>
+<span class="o">-</span> <span class="n">internal</span> <span class="n">code</span> <span class="n">editor</span>
+<span class="o">-</span> <span class="n">lua</span><span class="o">/</span><span class="n">python</span><span class="o">/</span><span class="n">processing</span><span class="o">/</span><span class="n">glsl</span><span class="o">/</span><span class="n">bash</span> <span class="n">live</span><span class="o">-</span><span class="n">coding</span>
+<span class="o">-</span> <span class="n">pure</span> <span class="n">data</span> <span class="n">live</span><span class="o">-</span><span class="n">patching</span>
+<span class="o">-</span> <span class="n">non</span><span class="o">-</span><span class="n">linear</span> <span class="n">interactive</span> <span class="n">timeline</span>
+<span class="o">-</span> <span class="n">warping</span> <span class="n">integrado</span> <span class="n">en</span> <span class="n">el</span> <span class="n">objeto</span> <span class="n">output</span> <span class="n">window</span>
+<span class="o">-</span> <span class="nb">map</span><span class="o">-</span><span class="nb">map</span> <span class="n">style</span> <span class="n">integrado</span> <span class="n">en</span> <span class="n">el</span> <span class="n">módulo</span> <span class="n">mapping</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>Después de instalar Mosaic (ver <a class="reference external" href="Installing.html">instalación</a>)  al abrirlo verás el menú superior y el espacio de trabajo (canvas) donde se situarán los objetos.</p>
+<p><img alt="alt text" src="_images/interface_mosaic_example_w.jpg" /></p>
+<p>Para añadir un objeto, clica  el botón derecho del ratón sobre el espacio vacío del canvas y aparecerá el menú de objetos ordenados por categorías, si seleccionas un objeto, se situará en el canvas. Desde el menú superior <strong>Objects</strong> puedes seleccionarlo igualmente.</p>
+<p>Se puede mover un objeto arrastrándolo con el ratón al lugar deseado. Se pueden desplazar todos los objetos de un patch clicando en un espacio vacío del canvas y arrastrándolo. Con el scroll del ratón se hace  zoom de aumento o reducción de todo lo que hay en el canvas.</p>
+<p>La mayoría de los objetos tienen conectores, en su lado izquierdo están los inlets y en el derecho los outlets. Al arrastrar el ratón desde un outlet veremos como se estira un cable, y a su lado se nos indica el tipo de datos que transmite y el nombre del outlet. Al acercar el cable a su destino, el inlet aumenta de tamaño si es del mismo tipo de datos que transmite el cable, si es de otro tipo de datos no se puede conectar.</p>
+<p>Hay seis tipos de datos que se pueden comunicar entre los objetos y cada uno de los cables que los transmiten, así como sus inlets y outles se identifican por su color:</p>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th><strong>Tipo conexión</strong></th>
+<th><strong>Tipo variable</strong></th>
+<th><strong>Color</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-----------------</td>
+<td>-----------------</td>
+<td>---------</td>
+</tr>
+<tr>
+<td>Numeric</td>
+<td>float</td>
+<td><strong><span style="color:rgb(210,210,210)">Gris</span></strong></td>
+</tr>
+<tr>
+<td>Text</td>
+<td>string</td>
+<td><strong><span style="color:rgb(200,180,255)">Violeta</span></strong></td>
+</tr>
+<tr>
+<td>Array</td>
+<td>vector&lt;float></td>
+<td><strong><span style="color:rgb(120,255,120)">Verde</span></strong></td>
+</tr>
+<tr>
+<td>Texture</td>
+<td>ofTexture</td>
+<td><strong><span style="color:rgb(120,255,255)">Azul</span></strong></td>
+</tr>
+<tr>
+<td>Sound</td>
+<td>ofSoundBuffer</td>
+<td> <strong><span style="color:rgb(255,255,120)">Amarillo</span></strong></td>
+</tr>
+<tr>
+<td>Live Coding</td>
+<td>Mouse/Keyboard Interaction</td>
+<td><strong><span style="color:rgb(255,128,128)">Rojo</span></strong></td>
+</tr>
+</tbody>
+</table><p><a class="reference external" href="https://vimeo.com/394048806"><img alt="alt text" src="_images/imag_video_01.jpg" /></a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Installing.html" class="btn btn-neutral float-right" title="Instalación y funcionamiento" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Mosaic Manual" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Instalación y funcionamiento &mdash; documentación de Mosaic - </title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.png"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/overrides.css" type="text/css" />
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Menú" href="Menu.html" />
+    <link rel="prev" title="Quick Start" href="QuickStart.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Mosaic</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="QuickStart.html">Quick Start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="QuickStart.html#especificaciones">Especificaciones</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Instalación y funcionamiento</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#instalar-en-mac">Instalar en Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#instalar-en-windows">Instalar en Windows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#openframeworks">openFrameworks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ofxaddons">OFXADDONS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#instalar-en-linux">Instalar en Linux</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Menu.html">Menú</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-guarda-un-patch-de-mosaic">¿Cómo se guarda un patch de Mosaic?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-abre-un-patch-de-mosaic">¿Cómo se abre un patch de Mosaic?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-pone-un-objeto">¿Cómo se pone un objeto?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-activar-el-sonido">¿Cómo activar el sonido?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-se-activa-warping-en-el-objeto-output-window">¿Cómo se activa Warping en el objeto Output window?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html#como-hacer-live-coding-en-mosaic">¿Cómo hacer live-coding en Mosaic?</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Objects</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Objects.html">Mosaic Objects List</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#audio-analysis">Audio analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#communications">Communications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#computer-vision">Computer vision</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#data">Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#graphics">Graphics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#gui">GUI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#logic">Logic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#math">Math</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#scripting">Scripting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#sound">Sound</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#system">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#video">Video</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Objects.html#windowing">Windowing</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Object Development</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ObjectDevelopmentTutorial.html">Objects development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ObjectLicensing.html">Objects Licensing</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Issues.html">Incompatibilities, Bugs and Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="About.html">About Mosaic</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Mosaic</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Instalación y funcionamiento</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/d3cod3/Mosaic-Manual/blob/master/Installing.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="instalacion-y-funcionamiento">
+<span id="instalacion-y-funcionamiento"></span><h1>Instalación y funcionamiento<a class="headerlink" href="#instalacion-y-funcionamiento" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Según el sistema operativo, desde la web de <a class="reference external" href="https://mosaic.d3cod3.org/#download">Mosaic</a>  se puede descargar la aplicación, el script de instalación o los archivos a compilar.</p>
+<div class="section" id="instalar-en-mac">
+<span id="instalar-en-mac"></span><h2>Instalar en Mac<a class="headerlink" href="#instalar-en-mac" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Descargar y descomprimir la carpeta Mosaic_vn.n.n_osx_release.zip (vn.n.n corresponde al número de la <em>release</em>), y trasladar la app a la carpeta de aplicaciones. Al abrir  el programa por primera vez se genera una carpeta denominada Mosaic en  Documentos, dentro de ella hay dos carpetas, una denominada <strong>data</strong>, se recomienda NO TOCAR el contenido de esa carpeta y otra llamada <strong>examples</strong> que contiene los ejemplos que vienen con la aplicación.</p>
+</div>
+<div class="section" id="instalar-en-windows">
+<span id="instalar-en-windows"></span><h2>Instalar en Windows<a class="headerlink" href="#instalar-en-windows" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Mosaic para Windows continuará sólo a nivel de código fuente. El código estará probado para compilar correctamente en Windows, pero no habrá instaladores disponibles para descargar.</p>
+<p>Si quieres usar Mosaic en windows, tienes que compilarlo con <a class="reference external" href="https://download.qt.io/official_releases/qtcreator/4.6/4.6.1/">qtcreator 4.6.1</a>.</p>
+<div class="section" id="openframeworks">
+<span id="openframeworks"></span><h3>openFrameworks<a class="headerlink" href="#openframeworks" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Descarga OF 0.11.0 STABLE (descarga oficial desde <a class="reference external" href="https://openframeworks.cc/download/">OF site</a>)</p>
+<p>Después de tener openFrameworks funcionando, necesitas clonar desde git los ofxAddons.</p>
+</div>
+<div class="section" id="ofxaddons">
+<span id="ofxaddons"></span><h3>OFXADDONS<a class="headerlink" href="#ofxaddons" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Clona este listado de addons necesarios:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">&lt;</span><span class="n">your_openframeworks_release_folder</span><span class="o">&gt;/</span><span class="n">addons</span>
+
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxAudioAnalyzer</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">npisanti</span><span class="o">/</span><span class="n">ofxAudioFile</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxBTrack</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxChromaKeyShader</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">kylemcdonald</span><span class="o">/</span><span class="n">ofxCv</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxDatGui</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">arturoc</span><span class="o">/</span><span class="n">ofxEasing</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">kylemcdonald</span><span class="o">/</span><span class="n">ofxFaceTracker</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxFFmpegRecorder</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxFontStash</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxGLEditor</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">armadillu</span><span class="o">/</span><span class="n">ofxGLError</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxHapPlayer</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">armadillu</span><span class="o">/</span><span class="n">ofxHistoryPlot</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxJava</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">jeffcrouse</span><span class="o">/</span><span class="n">ofxJSON</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxImGui</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxInfiniteCanvas</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="o">--</span><span class="n">branch</span><span class="o">=</span><span class="n">of</span><span class="o">-</span><span class="mf">0.10</span><span class="o">.</span><span class="mi">0</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxLua</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxMidi</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxMtlMapping2D</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxNDI</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="o">--</span><span class="n">branch</span><span class="o">=</span><span class="n">OF0</span><span class="o">.</span><span class="mf">9.8</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxPython</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxParagraph</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">danomatika</span><span class="o">/</span><span class="n">ofxPd</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxPdExternals</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">npisanti</span><span class="o">/</span><span class="n">ofxPDSP</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">armadillu</span><span class="o">/</span><span class="n">ofxSimpleHttp</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxThreadedFileDialog</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxTimeline</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">armadillu</span><span class="o">/</span><span class="n">ofxTimeMeasurements</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxVisualProgramming</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">d3cod3</span><span class="o">/</span><span class="n">ofxWarp</span>
+</pre></div>
+</div>
+<p>Después, debes clonar desde git el <a class="reference external" href="https://github.com/d3cod3/Mosaic.git">repositorio de Mosaic</a> y seguir la guía de configuración para el IDE de <a class="reference external" href="https://www.qt.io/">qtcreator</a>.</p>
+</div>
+</div>
+<div class="section" id="instalar-en-linux">
+<span id="instalar-en-linux"></span><h2>Instalar en Linux<a class="headerlink" href="#instalar-en-linux" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En Linux, se puede descargar un script bash para la terminal. Según la distro de Linux las opciones son:</p>
+<ul class="simple">
+<li>Ubuntu: <a class="reference external" href="https://gist.github.com/d3cod3/81b8971ebf5fc9a6d288ca93fc3c3dad">install_mosaic_ubuntu.sh</a></li>
+<li>Ubuntu Studio: <a class="reference external" href="https://gist.github.com/d3cod3/869d6d36b2e4c6a5aa01c17cf6395e6b">install_mosaic_ubuntustudio.sh</a></li>
+<li>Linux Mint: <a class="reference external" href="https://gist.github.com/d3cod3/d1a544e0cf21b8733b567a3d87905d23">install_mosaic_linuxmint.sh</a></li>
+<li>Debian: <a class="reference external" href="https://gist.github.com/d3cod3/fbb76735554c3b38e811414d96fc28d6">install_mosaic_debian.sh</a></li>
+<li>Fedora: <a class="reference external" href="https://gist.github.com/d3cod3/2a6e9f1f21045d763571cc4172cf2d6c#file-install_mosaic_fedora-sh">install_mosaic_fedora.sh</a></li>
+</ul>
+<p>Estos scripts automáticamente descargan, clonan, compilan e instalan todo, tras lo cual, Mosaic aparece en el menú de escritorio.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Menu.html" class="btn btn-neutral float-right" title="Menú" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="QuickStart.html" class="btn btn-neutral float-left" title="Quick Start" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
