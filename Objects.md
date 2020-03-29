@@ -1,7 +1,7 @@
 # Mosaic Objects List
 
 ### Audio analysis
-[audio analyzer](https://mosaic.d3cod3.org/reference.php?r=audio-analyzer). This object is a audio analysis station which transmits a vector with all the analyzed data. Each type of audio data is available in the different extractor objects below.
+[audio analyzer](https://mosaic.d3cod3.org/reference.php?r=audio-analyzer). This object is an audio analysis station which transmits a vector with all the analyzed data. Each type of audio data is available in the different extractor objects below.
 
 [beat extractor](https://mosaic.d3cod3.org/reference.php?r=beat-extractor). This object extracts the beat detection from the audio analysis vector.
 
@@ -84,6 +84,8 @@
 [data to texture](https://mosaic.d3cod3.org/reference.php?r=data-to-texture). This object performs "analog style" video synthesis, with a separate control over RGB channels.
 
 [file to data](https://mosaic.d3cod3.org/reference.php?r=file-to-data). This object loads a txt file, previously saved by the **data to file** object, and return the vector data, line by line, with reading synced by his bang inlet.
+
+[float multiplexer](https://mosaic.d3cod3.org/reference.php?r=float-multiplexer). This object can receive up to 6 float values and transmits the last received one.
 
 [floats to vector](https://mosaic.d3cod3.org/reference.php?r=floats-to-vector). This object concatenates up to 6 float data in an vector. It can be used in cascade to concatenate multiples of 6 floats.
 
@@ -277,6 +279,10 @@ This objects load different scripting languages for live-coding, you can edit th
 ### Video
 
 [kinect grabber](https://mosaic.d3cod3.org/reference.php?r=kinect-grabber). This object receives the signal directly from a Kinect sensor.
+
+[pixels to texture](https://mosaic.d3cod3.org/reference.php?r=pixel-to-texture). This object transforms the signal from a pixels cable (emerald green) into a texture signal (blue cable). In Mosaic, texture data is processed on GPU and pixel data on CPU.
+
+[texture to pixels](https://mosaic.d3cod3.org/reference.php?r=texture-to-pixel). This object transforms the signal from a texture cable (blue) into a pixel signal (emerald green). In Mosaic, texture data is processed on GPU and pixel data on CPU.
 
 [video crop](https://mosaic.d3cod3.org/reference.php?r=video-crop). This object allows you to crop a rectangular fragment of a texture (image, video, graphic...).
 

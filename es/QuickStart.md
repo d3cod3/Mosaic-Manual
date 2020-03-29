@@ -37,6 +37,7 @@ Hay seis tipos de datos que se pueden comunicar entre los objetos y cada uno de 
 | Text		        | string            | **<span style="color:rgb(200,180,255)">Violeta</span>** |
 | Array             | vector<float\>    | **<span style="color:rgb(120,255,120)">Verde</span>** |
 | Texture                             | ofTexture                          | **<span style="color:rgb(120,255,255)">Azul</span>**              |
+| Pixels                             | ofPixels                          | **<span style="color:rgb(0,180,140)">Verde Esmeralda</span>**              |
 | Sound                              | ofSoundBuffer                 | **<span style="color:rgb(255,255,120)">Amarillo</span>**    |
 | Live Coding                       | Mouse/Keyboard Interaction        | **<span style="color:rgb(255,128,128)">Rojo</span>**               |
 

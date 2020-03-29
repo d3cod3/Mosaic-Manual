@@ -84,6 +84,8 @@
 
 [file to data](https://mosaic.d3cod3.org/reference.php?r=file-to-data). Este objeto carga un archivo txt, previamente guardado por el objeto data to file, con los datos de un vector.
 
+[float multiplexer](https://mosaic.d3cod3.org/reference.php?r=float-multiplexer). Este objeto puede recibir hasta 6 valores float y transmite el último recibido.
+
 [floats to vector](https://mosaic.d3cod3.org/reference.php?r=floats-to-vector). Este objeto concatena hasta 6 datos float en un vector.
 
 [texture to data](https://mosaic.d3cod3.org/reference.php?r=texture-to-data). Este objeto procesa los datos de una textura y los transmite como un vector con el que puede generar una forma de onda de sonido.
@@ -267,6 +269,10 @@
 
 ### Video
 [kinect grabber](https://mosaic.d3cod3.org/reference.php?r=kinect-grabber). Este objeto recibe directamente la señal de un sensor Kinect.
+
+[pixels to texture](https://mosaic.d3cod3.org/reference.php?r=pixel-to-texture). Este objeto transforma la señal de un cable pixels (verde esmeralda) en una señal textura (cable azul). En Mosaic los datos de tipo textura son procesados en GPU y los datos pixels en CPU.
+
+[texture to pixels](https://mosaic.d3cod3.org/reference.php?r=texture-to-pixel). Este objeto transforma la señal de un cable textura (azul) en una señal de tipo pixels (cable verde esmeralda). En Mosaic los datos de tipo textura son procesados en GPU y los datos pixels en CPU.
 
 [video crop](https://mosaic.d3cod3.org/reference.php?r=video-crop). Este objeto permite recortar un fragmento rectangular de una textura (imagen, vídeo, gráfico...).
 

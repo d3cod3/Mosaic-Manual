@@ -38,6 +38,7 @@ There are six cables types  to communicate six data types  between objects. Each
 | Text		        | string            | **<span style="color:rgb(200,180,255)">Violet</span>** |
 | Array             | vector<float\>    | **<span style="color:rgb(120,255,120)">Green</span>** |
 | Texture                             | ofTexture                          | **<span style="color:rgb(120,255,255)">Blue</span>**              |
+| Pixels                             | ofPixels                          | **<span style="color:rgb(0,180,140)">Emerald Green</span>**              |
 | Sound                              | ofSoundBuffer                 | **<span style="color:rgb(255,255,120)">Yellow</span>**    |
 | Live Coding                       | Mouse/Keyboard Interaction        | **<span style="color:rgb(255,128,128)">Red</span>**               |
 
